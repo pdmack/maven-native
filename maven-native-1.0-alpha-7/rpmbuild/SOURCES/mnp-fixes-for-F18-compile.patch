@@ -1,0 +1,23 @@
+diff --git a/maven-native-1.0-alpha-7/pom.xml b/maven-native-1.0-alpha-7/pom.xml
+index 29a49c0..b8c720f 100644
+--- a/maven-native-1.0-alpha-7/pom.xml
++++ b/maven-native-1.0-alpha-7/pom.xml
+@@ -185,6 +185,15 @@
+             </workspaceCodeStylesURL>
+           </configuration>
+         </plugin>
++        <plugin>
++          <groupId>org.apache.maven.plugins</groupId>
++          <artifactId>maven-compiler-plugin</artifactId>
++          <version>2.3.2</version>
++          <configuration>
++            <source>1.7</source>
++            <target>1.7</target>
++          </configuration>
++        </plugin>
+       </plugins>
+     </pluginManagement>
+     
+-- 
+1.8.1.4
+
